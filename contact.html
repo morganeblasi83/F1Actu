@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | F1 Actu</title>
+    <meta name="description" content="Contactez l'équipe de F1 Actu pour toute question ou suggestion sur la saison 2026 de Formule 1.">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/favicon.png" alt="Logo F1 Actu" height="40"> F1 ACTU
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classement.html">Classement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ecuries.html">Écuries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="circuit.html">Circuits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5 flex-grow-1">
+        <h1>Contactez-nous</h1>
+        <p>Une question sur la saison 2026 ou une suggestion ? Envoyez-nous un message.</p>
+
+        <form action="#" method="post" class="mt-4">
+            <div class="mb-3">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Adresse email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Envoyer</button>
+        </form>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container d-flex justify-content-between">
+            <div>© 2026 Morgane Blasi</div>
+            <div>Réseaux sociaux</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

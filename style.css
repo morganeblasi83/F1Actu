@@ -1,0 +1,13 @@
+:root {
+    --f1-red: #e10600;
+    }
+    header {
+    border-bottom: 3px solid var(--f1-red);
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.card, section.bg-light, .classement-pilotes {
+    border-top: 3px solid var(--f1-red) !important;
+}
